@@ -11,15 +11,20 @@
   background-image: url("../../assets/background_image.png");
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
 }
 #drum-machine #display {
   display: flex;
   flex-direction: column;
+  gap: 50px;
+  max-height: 97%;
   width: 70%;
 }
 #drum-machine #display img {
+  top: 50%;
+  transform: translate(0%, -50%);
   margin-top: -120px;
   position: relative;
   object-fit: cover;
