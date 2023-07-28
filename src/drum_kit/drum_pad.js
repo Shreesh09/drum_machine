@@ -1,17 +1,29 @@
 import React from "react";
 import {pads} from "./drums_constants";
 import PropTypes from "prop-types";
+import './drum_pad_style.css'
 
 class DrumPad extends React.Component
 {
+    constructor(props) {
+        super(props);
+    }
     playDrumOnClick = () => {
+        document.getElementById(this.props.id).classList.add("clicked");
         this.props.setClip(this.props.id);
         document.getElementById(this.props.pad).play();
+        window.setTimeout(() => {
+            document.getElementById(this.props.id).classList.remove("clicked");
+        }, 200);
+        //document.getElementById(this.props.id).classList.remove("clicked");
     }
 
     playDrumOnKey = (event) => {
         if(event.keyCode === this.props.pad.charCodeAt(0)) {
-            console.log("pressed");
+            document.getElementById(this.props.id).classList.add("clicked");
+            window.setTimeout(() => {
+                document.getElementById(this.props.id).classList.remove("clicked");
+            }, 100);
             this.props.setClip(this.props.id);
             document.getElementById(this.props.pad).currentTime = 0;
             this.props.setClip(this.props.id);

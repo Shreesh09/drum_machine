@@ -1,12 +1,12 @@
 const pads = {
-    'Q': "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3",
-    'W': "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3",
-    'E': "https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3",
-    'A': "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3",
-    'S': "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3",
-    'D': "https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3",
-    'Z': "https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3",
-    'X': "https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3",
+    'Q': "http://electrongate.com/dmxfiles/CRASH.wav",
+    'W': "http://www.denhaku.com/r_box/drumu/midtom.wav",
+    'E': "http://tipiwiki.free.fr/snd/Tamtam2.wav",
+    'A': "http://electrongate.com/dmxfiles/PERIDE.wav",
+    'S': "http://www.denhaku.com/r_box/drumu/closed.wav",
+    'D': "http://tipiwiki.free.fr/snd/TambourATimbre.wav",
+    'Z': "http://soundcavern.free.fr/kick/kick009.wav",
+    'X': "http://www.burnkit2600.com/temp/HR-16/HR-16-WAVs/21-10dbl%20head%20tom.wav",
     'C': "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3",
 }
 
