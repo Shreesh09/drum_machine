@@ -1,12 +1,12 @@
 const pads = {
-    'Q': "http://electrongate.com/dmxfiles/CRASH.wav",
-    'W': "http://www.denhaku.com/r_box/drumu/midtom.wav",
-    'E': "http://tipiwiki.free.fr/snd/Tamtam2.wav",
-    'A': "http://electrongate.com/dmxfiles/PERIDE.wav",
-    'S': "http://www.denhaku.com/r_box/drumu/closed.wav",
-    'D': "http://tipiwiki.free.fr/snd/TambourATimbre.wav",
-    'Z': "http://soundcavern.free.fr/kick/kick009.wav",
-    'X': "http://www.burnkit2600.com/temp/HR-16/HR-16-WAVs/21-10dbl%20head%20tom.wav",
+    'Q': "https://drive.google.com/uc?export=view&id=11cUy3mS0WPGhB26n6Fou-VztMnvNMyjt",
+    'W': "https://drive.google.com/uc?export=view&id=1-CSja-DLS2l61HbXjVDRPJxhE1sOXEFP",
+    'E': "https://drive.google.com/uc?export=view&id=1M4vxdMIC1U6zh07MWU4PBSJEfZRBEktl",
+    'A': "https://drive.google.com/uc?export=view&id=1-F9iEDNn54yJoMZ47kF1JYd3mYJM7FCT",
+    'S': "https://drive.google.com/uc?export=view&id=1D5kYP_8GaVqwbfWj8dI0PikFnK4xzLWg",
+    'D': "https://drive.google.com/uc?export=view&id=1qGWMoVQRZWx2J5Gt33pTUkcwAvTKBOMa",
+    'Z': "https://drive.google.com/uc?export=view&id=1_DAkBQ7-h-1rzCCe1c7VXUITRUBgz2Lg",
+    'X': "https://drive.google.com/uc?export=view&id=1mE3vsDmrlvmXmr1z22hx4Qj1NJPax9aY",
 }
 
 export {pads};
