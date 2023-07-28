@@ -30,7 +30,6 @@ class Drums extends React.Component {
                    <DrumPad id="Snare-Drum" pad="D" setClip={this.setClip}/>
                    <DrumPad id="Bass-Pedal" pad="Z" setClip={this.setClip}/>
                    <DrumPad id="Floor-Tom" pad="X" setClip={this.setClip}/>
-                   <DrumPad id="Closed-HH" pad="C" setClip={this.setClip}/>
                </div>
            </div>
         );

@@ -1,7 +1,8 @@
 .drum-pad {
   height: 7%;
   width: 6%;
-  background-color: lightgoldenrodyellow;
+  border: .5px solid;
+  background-color: rgba(255,255,255,.64);
   position: absolute;
   display: flex;
   align-items: center;
@@ -57,9 +58,4 @@
 #Floor-Tom {
   margin-top: 29%;
   margin-left: 48%;
-}
-
-#Closed-HH {
-  margin-top: 18%;
-  left: 66%;
 }
